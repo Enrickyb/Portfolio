@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+/* font-family: 'Poppins', sans-serif; */
+/* font-family: 'Fredoka', sans-serif; */
+@import './abstract/base';
+@import './abstract/variaveis';
+
+@import './components/header';
+@import './components/mainSection';
+@import './components/aboutMeSection';
+
+@import './components/Cards';
+@import './components/Footer';
