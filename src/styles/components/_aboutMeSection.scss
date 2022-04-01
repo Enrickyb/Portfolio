@@ -1,6 +1,5 @@
 .AboutMe {
   
-  
   width: 100%;
   min-height: 300px;
   text-align: left;
@@ -24,25 +23,41 @@
   .skills-languages {
     display: flex;
     flex: row;
-
+    flex-wrap: nowrap;
     .languages {
-      .languages-skill {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      margin-right: 100px;
+      @media screen and (max-width: 1515px){
+        margin-right: 50px;
+      }
+      .languages-img{
         margin-top: 50px;
-
-        width: 60px;
-        height: 60px;
+        min-width: 155px;
+        .languages-skill {
+          
+          width: 50px;
+          height: 50px;
+          
+        }
       }
     }
 
     .frameworks {
-      margin-left: 100px;
-      p {
+      h2{
+        min-width: 262px;
+      }
+     
+      .frameworks-img{
         margin-top: 50px;
+        min-width: 155px;
+        img {
+          width: 50px;
+          height: 50px;
+        }
       }
-      img {
-        width: 60px;
-        height: 60px;
-      }
+      
     }
   }
 }
@@ -65,18 +80,24 @@
       margin-right: 0px;
       margin: auto;
     }
+    
     .skills-languages {
       flex-direction: column;
       .languages {
-        margin-left: 0;
-      }
-      .frameworks {
-        margin-left: 0;
-        #img-react {
-          width: 70px;
-          height: 70px;
+        margin: auto;
+        .languages-img{
+          margin-top: 10px;
         }
       }
+      .frameworks {
+        margin: auto;
+        .frameworks-img{
+          margin-top: 10px;
+          margin-bottom: 10px;
+        }
+        
+      }
     }
+    
   }
 }

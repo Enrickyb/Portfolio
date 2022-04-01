@@ -7,6 +7,15 @@ export default function Main(props) {
   const imglight = <img src='images/handcoding.gif' alt='hand coding gif'></img>
   const imgdark = <img src='images/handcodingdark.gif' alt='handcoding gif dark'></img>
   //
+  //icons
+  
+  function changIcon() {
+    if(props.colorMode === 'light'){
+      return true
+    }else{
+      return false
+    }
+  }
   function changeGif(){
     if(props.colorMode === 'dark'){
       return imgdark
@@ -16,7 +25,7 @@ export default function Main(props) {
   }
   return (
     <div className='main'>
-        <MainContent></MainContent>
+        <MainContent changIcon={changIcon()}></MainContent>
         <Gif>{changeGif()}</Gif>
     </div>
   )

@@ -8,9 +8,19 @@ export default function Header(props){
     return(
         <div className="header" sx={{color:'textblue'}}>
             <h1>Enricky Biazatti</h1>
-            <Menu hrefs={['.aboutMe', '.Contacts', '.Projects']} links={['About', 'Contacts', 'Projects',]}>
-                <button onClick={()=>props.onSetColorMode()}>{props.colorMode === 'light' ? moon : sun}</button>
-            </Menu>
+            <div id="menuham" className="---">
+                <div class="barras"  onclick="turnon()">
+                        <div class="barra b1"></div>
+                        <div class="barra b2"></div>
+                        <div class="barra b3"></div>
+                </div>
+
+
+                <Menu hrefs={['.aboutMe', '.Contacts', '.Projects']} links={['About Me', 'Contacts', 'Projects',]}>
+                    <button onClick={()=>props.onSetColorMode()}>{props.colorMode === 'light' ? moon : sun}</button>
+                </Menu>
+                
+            </div>
             
         </div>
     )

@@ -28,7 +28,8 @@
       width: 50rem;
     }
     .card-image {
-        background-image: url(/public/images/NetflixClone.png);
+       
+        
         background-size: cover;
         background-position: center top;
         border-radius: 5px 5px 0 0;
@@ -37,8 +38,25 @@
         h3{
             display: none;
         }
+        
     }
-    
+    #card-one {
+        background-image: url(/public/images/NetflixClone.png);
+    }
+    #card-two {
+        background-image: url(/public/images/viacerta.png);
+    }
+    #card-three {
+        background-image: url(/public/images/To-do.png);
+    }
+    #card-four {
+        background-image: url(/public/images/jdv.png);
+        background-position: center top 30%;
+    }
+    #card-five {
+        background-image: url(/public/images/memorygame.png);
+    }
+      
     .card-content{
         margin: 0 auto;
         width: 80%;
