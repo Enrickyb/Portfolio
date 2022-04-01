@@ -1,9 +1,10 @@
+/** @jsxImportSource theme-ui */
 import React from "react";
 
 export default function MainContent() {
 
   return (
-    <div className="mainContent">
+    <div className="mainContent" sx={{color: 'textblue'}}>
       <p id="develop">Web developer</p>
       <h1>Enricky Biazatti</h1>
       <p id="desc">
@@ -12,10 +13,10 @@ export default function MainContent() {
         dignissimos vel ad fugit quisquam qui perferendis asperiores
       </p>
 
-      <a href="https://api.whatsapp.com/send?phone=s+5569984311483&text=" id="buttoncnt">Entre em contato</a>
+      <a sx={{backgroundColor:'btn', color:'btntxt'}} href="https://api.whatsapp.com/send?phone=s+5569984311483&text=" id="buttoncnt">Entre em contato</a>
       
       <div className="sociais">
-          <a
+          <a 
             href="https://www.instagram.com/enricky.b/"
             target="_blank"
             rel="noreferrer"

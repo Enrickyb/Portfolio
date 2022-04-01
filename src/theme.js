@@ -16,7 +16,7 @@ const theme = {
         modes: {
             dark:{
                 bg: '#080b13',
-                bgblue: '#080b13',
+                bgblue: '#2C2D33',
                 text: '#f2f2f2',
                 textblue: '#ffffff',
                 card: '#2C2D33',

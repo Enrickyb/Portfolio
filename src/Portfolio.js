@@ -8,16 +8,20 @@ import Projects from './Components/ProjectsSection/Projects';
 import Footer from './Components/Footer/Footer';
 
 
-function Portfolio() {
+function Portfolio(props) {
   const [colorMode, setColorMode]= useColorMode();
+
+  function onSetColorMode(){
+    setColorMode(colorMode === 'light' ? 'dark': 'light')
+  }
 
   return (
 
     <div className="Portfolio" sx={{backgroundColor: 'bg'}}>
       
-    <Header></Header>
-    <button onClick={()=>setColorMode(colorMode === 'light' ? 'dark': 'light')}>darkmode</button>
-    <Main></Main>
+    <Header onSetColorMode={onSetColorMode} colorMode={colorMode}></Header>
+    
+    <Main colorMode={colorMode}></Main>
     <AboutMe></AboutMe>
     <Projects></Projects>
     <Footer></Footer>

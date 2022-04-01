@@ -1,9 +1,13 @@
+/** @jsxImportSource theme-ui */
 import React from 'react'
 
-export default function Gif() {
+export default function Gif(props) {
+
+  
+
   return (
     <div className='gif'>
-        <img src='images/handcoding.gif'></img>
+        {props.children}
     </div>
   )
 }

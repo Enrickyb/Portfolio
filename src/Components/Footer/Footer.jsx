@@ -1,8 +1,9 @@
+/** @jsxImportSource theme-ui */
 import React from 'react'
 
 export default function Footer() {
   return (
-    <div className='footer'>
+    <div className='footer' sx={{backgroundColor:'bgblue'}}>
         <div class="texto-footer" id="cnt">
                 <h2>Enricky Biazatti</h2>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab tempora doloremque quibusdam aliquid </p>
