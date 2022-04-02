@@ -3,7 +3,7 @@ import React from "react";
 
 export default function Footer() {
   return (
-    <div className="footer" sx={{ backgroundColor: "bgblue" }}>
+    <div className="footer" id="foot" sx={{ backgroundColor: "bgblue" }}>
       <div class="texto-footer" id="cnt">
         <h2>Enricky Biazatti</h2>
         <p>
