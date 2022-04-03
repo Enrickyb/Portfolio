@@ -363,7 +363,7 @@ body {
 
 .AboutMe .skills-languages .frameworks .frameworks-img img {
   width: 50px;
-  height: 50px;
+  margin-right: 5px;
 }
 
 @media screen and (max-width: 938px) {
@@ -423,6 +423,7 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  margin-bottom: 60px;
 }
 
 .Cards h1 {
@@ -655,11 +656,15 @@ body {
   padding-bottom: 30px;
 }
 
-.footer .social-footer a {
+.footer .social-footer .socialImages {
+  margin-left: -10px;
+}
+
+.footer .social-footer .socialImages a {
   text-decoration: none;
 }
 
-.footer .social-footer a img {
+.footer .social-footer .socialImages a img {
   height: 25px;
   margin-left: 10px;
 }

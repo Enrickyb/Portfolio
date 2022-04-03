@@ -1,13 +1,12 @@
 /** @jsxImportSource theme-ui */
-import React from 'react'
+import React, { useState } from 'react'
 import MainContent from './MainContent'
 import Gif from './Gif'
 export default function Main(props) {
   //imagens
-  const imglight = <img src='images/handcoding.gif' alt='hand coding gif'></img>
+  const imglight = <img src='images/handcoding.gif' alt='handcoding gif'></img>
   const imgdark = <img src='images/handcodingdark.gif' alt='handcoding gif dark'></img>
   //
-  //icons
   
   function changIcon() {
     if(props.colorMode === 'light'){
@@ -18,10 +17,13 @@ export default function Main(props) {
   }
   function changeGif(){
     if(props.colorMode === 'dark'){
+      
       return imgdark
     }else {
+      
       return imglight
     }
+    
   }
   return (
     <div className='main'>

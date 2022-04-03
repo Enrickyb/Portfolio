@@ -32,31 +32,33 @@ export default function Footer() {
       </div>
       <div class="social-footer">
         <h2>Social networks</h2>
-        <a
-          href="https://www.instagram.com/enricky.b/"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <img src="images/white/instagram.png" alt="instagram" />
-        </a>
-        <a
-          href="https://www.facebook.com/ricky.biazattiaraujo/"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <img src="images/white/facebook.png" alt="facebook" id="facebookIconFt" />
-        </a>
-        <a href="https://github.com/Enrickyb" target="_blank" rel="noreferrer">
-          <img src="images/white/github.png" alt="github" />
-        </a>
-        <a
-          href="https://www.linkedin.com/in/enricky-biazatti-48a34721b/"
-          target="_blank"
-          id="linkd"
-          rel="noreferrer"
-        >
-          <img src="images/white/linkedinfundo.png" alt="linkedin" />
-        </a>
+        <div className="socialImages">
+          <a
+            href="https://www.instagram.com/enricky.b/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img src="images/white/instagram.png" alt="instagram" />
+          </a>
+          <a
+            href="https://www.facebook.com/ricky.biazattiaraujo/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img src="images/white/facebook.png" alt="facebook" id="facebookIconFt" />
+          </a>
+          <a href="https://github.com/Enrickyb" target="_blank" rel="noreferrer">
+            <img src="images/white/github.png" alt="github" />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/enricky-biazatti-48a34721b/"
+            target="_blank"
+            id="linkd"
+            rel="noreferrer"
+          >
+            <img src="images/white/linkedinfundo.png" alt="linkedin" />
+          </a>
+        </div>
       </div>
       {/* <div class="copyright">
             <p>© Todos os direitos reservados</p>
