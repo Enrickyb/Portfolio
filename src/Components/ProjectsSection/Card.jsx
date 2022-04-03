@@ -13,8 +13,7 @@ export default function Card() {
           </h1>
           <p>
             This is a clone of the netflix main page. This was a challenging
-            project where I could improve and put my knowledge into practice.The
-            languages ​​used were: HTML, CSS and JavaScript
+            project where I could improve and put my knowledge into practice.
           </p>
           <ul>
             <li>HTML</li>
@@ -46,7 +45,7 @@ export default function Card() {
             <a href="https://kaleidoscopic-melba-3723af.netlify.app/">Memory Matching Game</a>
           </h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates adipisci laboriosam velit a officiis quidem dolores. Ab, illo quod voluptates in mollitia quia nemo provid.
+          This memory game was made using ReactJs in it I started my learning in react.
           </p>
           <ul>
             <li>HTML</li>
@@ -83,8 +82,7 @@ export default function Card() {
           <p>
             This project is a clone of the website of the distributor Via Certa
             from Manaus-AM, in which I learned important lessons such as the
-            image carousel and the "Hamburger" menu. The languages ​​used were:
-            HTML, CSS and JavaScript
+            image carousel and the "Hamburger" menu.
           </p>
           <ul>
             <li>HTML</li>
@@ -118,7 +116,7 @@ export default function Card() {
           </h1>
           <p>
             I developed this to-do list with my knowledge, where you can add,
-            remove and mark activities as done The languages used were: React.Js
+            remove and mark activities as done.
           </p>
           <ul>
             <li>ReactJs</li>
