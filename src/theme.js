@@ -13,6 +13,7 @@ const theme = {
         bgbutton: '#023059',
         bgslide:'#023059',
         imgdarkm: 'black',
+        btnhamb: 'black',
         modes: {
             dark:{
                 bg: '#080b13',
@@ -27,6 +28,7 @@ const theme = {
                 bgbutton: 'gray',
                 bgslide:'#f2f2f2',
                 imgdarkm: 'white',
+                btnhamb: 'white',
             }
         }
     }

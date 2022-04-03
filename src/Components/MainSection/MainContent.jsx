@@ -7,9 +7,7 @@ export default function MainContent(props) {
       <p id="develop">Web developer</p>
       <h1>Enricky Biazatti</h1>
       <p id="desc">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum
-        dolor sit amet consectetur adipisicing elit. Itaque voluptate
-        dignissimos vel ad fugit quisquam qui perferendis asperiores
+      I'm a front end web developer, I build different types of responsive websites. I live in Brazil
       </p>
 
       <a

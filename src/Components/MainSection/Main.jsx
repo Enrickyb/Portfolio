@@ -1,7 +1,7 @@
 /** @jsxImportSource theme-ui */
 import React from 'react'
-import MainContent from './MainContent/MainContent'
-import Gif from './MainContent/Gif'
+import MainContent from './MainContent'
+import Gif from './Gif'
 export default function Main(props) {
   //imagens
   const imglight = <img src='images/handcoding.gif' alt='hand coding gif'></img>

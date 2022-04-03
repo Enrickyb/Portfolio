@@ -27,7 +27,7 @@ export default function Footer() {
           <a href="#projec">Projects</a>
         </p>
         <p>
-          <a href="#nm">Home</a>
+          <a href="#head">Home</a>
         </p>
       </div>
       <div class="social-footer">

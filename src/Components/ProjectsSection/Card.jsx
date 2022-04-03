@@ -38,6 +38,41 @@ export default function Card() {
       {/* card 2 */}
 
       <div className="card">
+        <div className="card-image" id="card-five">
+          <h3>Memory Matching Game</h3>
+        </div>
+        <div className="card-content">
+          <h1>
+            <a href="https://kaleidoscopic-melba-3723af.netlify.app/">Memory Matching Game</a>
+          </h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates adipisci laboriosam velit a officiis quidem dolores. Ab, illo quod voluptates in mollitia quia nemo provid.
+          </p>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+          </ul>
+        </div>
+        <div className="card-footer">
+          <div className="btn-view">
+            <a href="https://kaleidoscopic-melba-3723af.netlify.app/">View Project</a>
+          </div>
+          <div className="btn-sociais">
+            <a href="https://github.com/Enrickyb/memory-game">
+              <img src="/images/black/github.png" alt="github" />
+            </a>
+            {/* <a href="_changelater"><img src="" alt="" /></a> */}
+          </div>
+        </div>
+      </div>
+
+
+
+      {/* card 3 */}
+      
+
+      <div className="card">
         <div className="card-image" id="card-two">
           <h3>Via Certa</h3>
         </div>
@@ -70,8 +105,9 @@ export default function Card() {
         </div>
       </div>
 
-      {/* card 3 */}
-
+      
+      {/* Card 4 */}
+      
       <div className="card">
         <div className="card-image" id="card-three">
           <h3>To Do</h3>
@@ -102,7 +138,7 @@ export default function Card() {
         </div>
       </div>
 
-      {/* card 4 */}
+      {/* card 5 */}
 
       <div className="card">
         <div className="card-image" id="card-four">
@@ -134,37 +170,9 @@ export default function Card() {
         </div>
       </div>
 
-      {/* Card 5 */}
+     
 
-      <div className="card">
-        <div className="card-image" id="card-five">
-          <h3>Memory Matching Game</h3>
-        </div>
-        <div className="card-content">
-          <h1>
-            <a href="https://kaleidoscopic-melba-3723af.netlify.app/">Memory Matching Game</a>
-          </h1>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates adipisci laboriosam velit a officiis quidem dolores. Ab, illo quod voluptates in mollitia quia nemo provid.
-          </p>
-          <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-          </ul>
-        </div>
-        <div className="card-footer">
-          <div className="btn-view">
-            <a href="https://kaleidoscopic-melba-3723af.netlify.app/">View Project</a>
-          </div>
-          <div className="btn-sociais">
-            <a href="https://github.com/Enrickyb/memory-game">
-              <img src="/images/black/github.png" alt="github" />
-            </a>
-            {/* <a href="_changelater"><img src="" alt="" /></a> */}
-          </div>
-        </div>
-      </div>
+      
     </div>
   );
 }
