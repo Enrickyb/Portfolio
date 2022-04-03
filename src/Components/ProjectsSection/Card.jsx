@@ -48,9 +48,10 @@ export default function Card() {
           This memory game was made using ReactJs in it I started my learning in react.
           </p>
           <ul>
-            <li>HTML</li>
+
+            <li>ReactJs</li>
             <li>CSS</li>
-            <li>JavaScript</li>
+            
           </ul>
         </div>
         <div className="card-footer">
