@@ -31,10 +31,13 @@
         padding: 12px 20px;
         margin-left: 2px;
         text-decoration: none;
-        // background-color: $color-btn;
-        // color: $color-btntxt;
         font-weight: bold;
         font-size: 1.1em;
+        transition: all .3s;
+        &:hover {
+          padding: 14px 22px;
+          box-shadow: 3px 3px 30px rgb(0, 40, 150);
+        }
       }
       .sociais {
         &> a{
@@ -44,6 +47,10 @@
             height: 25px;
             margin-right: 10px;
             margin-left: 5px;
+            transition: all .1s;
+            &:hover {
+              height: 27px;
+            }
           }
         }
         

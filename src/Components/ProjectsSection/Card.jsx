@@ -133,7 +133,6 @@ export default function Card() {
             <a href="https://github.com/Enrickyb/to-do">
               <img src="/images/black/github.png" alt="github" />
             </a>
-            {/* <a href="_changelater"><img src="" alt="" /></a> */}
           </div>
         </div>
       </div>
@@ -149,7 +148,7 @@ export default function Card() {
             <a href="https://enrickyb.github.io/projeto-jogo-da-velha/">Tic Tac Toe</a>
           </h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates adipisci laboriosam velit a officiis quidem dolores. Ab, illo quod voluptates in mollitia quia nemo provid.
+          A small project where I put into practice my JavaScript learnings and I could learn many things.
           </p>
           <ul>
             <li>HTML</li>
@@ -165,7 +164,6 @@ export default function Card() {
             <a href="https://github.com/Enrickyb/projeto-jogo-da-velha">
               <img src="/images/black/github.png" alt="github" />
             </a>
-            {/* <a href="_changelater"><img src="" alt="" /></a> */}
           </div>
         </div>
       </div>
