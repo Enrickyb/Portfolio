@@ -1,9 +1,9 @@
 /** @jsxImportSource theme-ui */
-import React, { useState } from 'react'
+
 import MainContent from './MainContent'
 import Gif from './Gif'
 export default function Main(props) {
-  //imagens
+  //images
   const imglight = <img src='images/handcoding.gif' alt='handcoding gif'></img>
   const imgdark = <img src='images/handcodingdark.gif' alt='handcoding gif dark'></img>
   //
@@ -14,7 +14,7 @@ export default function Main(props) {
     }else{
       return false
     }
-  }
+}
   function changeGif(){
     if(props.colorMode === 'dark'){
       
