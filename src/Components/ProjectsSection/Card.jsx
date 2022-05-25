@@ -4,6 +4,36 @@ export default function Card() {
   return (
     <div>
       <div className="card">
+        <div className="card-image" id="card-finance">
+          <h3>Finance Control</h3>
+        </div>
+        <div className="card-content">
+          <h1>
+            <a href="https://github.com/Enrickyb/Controle-de-Financas">Finance Control</a>
+          </h1>
+          <p>
+          This project was developed to learn a little more about React mainly from React Hooks. It is possible to add monthly expenses and earnings.
+          </p>
+          <ul>
+            <li>ReactJs</li>
+          </ul>
+        </div>
+        <div className="card-footer">
+          <div className="btn-view">
+            <a href="https://github.com/Enrickyb/Controle-de-Financas">View Project</a>
+          </div>
+          <div className="btn-sociais">
+            <a href="https://github.com/Enrickyb/Controle-de-Financas">
+              <img src="/images/black/github.png" alt="github" />
+            </a>
+            {/* <a href="_changelater"><img src="" alt="" /></a> */}
+          </div>
+        </div>
+      </div>
+
+
+
+      <div className="card">
         <div className="card-image" id="card-one">
           <h3>Netflix</h3>
         </div>

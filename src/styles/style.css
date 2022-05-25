@@ -477,6 +477,10 @@ body {
   display: none;
 }
 
+.Cards .card #card-finance {
+  background-image: url(/public/images/sistemafinanceiro.png);
+}
+
 .Cards .card #card-one {
   background-image: url(/public/images/NetflixClone.png);
 }
