@@ -3,6 +3,38 @@ import React from "react";
 export default function Card() {
   return (
     <div>
+      
+      <div className="card">
+        <div className="card-image" id="card-one">
+          <h3>Netflix</h3>
+        </div>
+        <div className="card-content">
+          <h1>
+            <a href="https://netflixbyenricky.netlify.app/">Netflix Clone</a>
+          </h1>
+          <p>
+            This is a clone of the netflix main page. This was a challenging
+            project where I could improve and put my knowledge into practice.
+          </p>
+          <ul>
+            <li>ReactJs</li>
+            <li>CSS</li>
+            
+          </ul>
+        </div>
+        <div className="card-footer">
+          <div className="btn-view">
+            <a href="https://netflixbyenricky.netlify.app/">View Project</a>
+          </div>
+          <div className="btn-sociais">
+            <a href="https://github.com/Enrickyb/NetflixClone">
+              <img src="/images/black/github.png" alt="github" />
+            </a>
+            {/* <a href="_changelater"><img src="" alt="" /></a> */}
+          </div>
+        </div>
+      </div>
+
       <div className="card">
         <div className="card-image" id="card-finance">
           <h3>Finance Control</h3>
@@ -24,39 +56,6 @@ export default function Card() {
           </div>
           <div className="btn-sociais">
             <a href="https://github.com/Enrickyb/Controle-de-Financas">
-              <img src="/images/black/github.png" alt="github" />
-            </a>
-            {/* <a href="_changelater"><img src="" alt="" /></a> */}
-          </div>
-        </div>
-      </div>
-
-
-
-      <div className="card">
-        <div className="card-image" id="card-one">
-          <h3>Netflix</h3>
-        </div>
-        <div className="card-content">
-          <h1>
-            <a href="https://enrickyb.github.io/clone-netflix/">Netflix Clone</a>
-          </h1>
-          <p>
-            This is a clone of the netflix main page. This was a challenging
-            project where I could improve and put my knowledge into practice.
-          </p>
-          <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-          </ul>
-        </div>
-        <div className="card-footer">
-          <div className="btn-view">
-            <a href="https://enrickyb.github.io/clone-netflix/">View Project</a>
-          </div>
-          <div className="btn-sociais">
-            <a href="https://github.com/Enrickyb/clone-netflix">
               <img src="/images/black/github.png" alt="github" />
             </a>
             {/* <a href="_changelater"><img src="" alt="" /></a> */}
