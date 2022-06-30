@@ -30,7 +30,6 @@ export default function Card() {
             <a href="https://github.com/Enrickyb/NetflixClone">
               <img src="/images/black/github.png" alt="github" />
             </a>
-            {/* <a href="_changelater"><img src="" alt="" /></a> */}
           </div>
         </div>
       </div>
