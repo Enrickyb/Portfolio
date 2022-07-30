@@ -3,6 +3,7 @@
     justify-content: center;
     flex-direction: column;
     margin-bottom: 60px;
+   
     
      h1{
         margin: auto;      
@@ -33,35 +34,39 @@
     .card-image {
        
         
-        background-size: cover;
-        background-position: center top;
+        // background-size: cover;
+        // background-position: center top;
+        
         border-radius: 5px 5px 0 0;
         height: 15rem;
         box-shadow: inset hsla(0, 0, 0, .2) 0 64px 64px 16px;
-        h3{
-            display: none;
+        overflow-y: hidden;
+        img{
+           
+            width: 100%;
+            
         }
         
     }
-    #card-finance{
-        background-image: url(/public/images/sistemafinanceiro.png);
-    }
-    #card-one {
-        background-image: url(/public/images/NetflixClone.png);
-    }
-    #card-two {
-        background-image: url(/public/images/viacerta.png);
-    }
-    #card-three {
-        background-image: url(/public/images/To-do.png);
-    }
-    #card-four {
-        background-image: url(/public/images/jdv.png);
-        background-position: center top 30%;
-    }
-    #card-five {
-        background-image: url(/public/images/memorygame.png);
-    }
+    // #card-finance{
+    //     background-image: url(/public/images/sistemafinanceiro.png);
+    // }
+    // #card-one {
+    //     background-image: url(/public/images/NetflixClone.png);
+    // }
+    // #card-two {
+    //     background-image: url(/public/images/viacerta.png);
+    // }
+    // #card-three {
+    //     background-image: url(/public/images/To-do.png);
+    // }
+    // #card-four {
+    //     background-image: url(/public/images/jdv.png);
+    //     background-position: center top 30%;
+    // }
+    // #card-five {
+    //     background-image: url(/public/images/memorygame.png);
+    // }
       
     .card-content{
         margin: 0 auto;
