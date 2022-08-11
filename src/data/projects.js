@@ -47,7 +47,7 @@ export const projects = [
   {
     name: "Tic Tac Toe",
     description:
-      "one of my first projects using JavaScript. Helped me understand the logic of programming",
+      "One of my first projects using JavaScript. Helped me understand the logic of programming",
     image: "/images/jdv.png",
     techs: ["HTML", "CSS", "JavaScript"],
     deploy: "https://enrickyb.github.io/projeto-jogo-da-velha/",
