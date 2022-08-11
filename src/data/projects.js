@@ -2,7 +2,7 @@ export const projects = [
   {
     name: "Pokedex",
     description:
-      "Project developed in NextJs and StyledComponents using the official pokemon API. In this project I had the opportunity to learn a little about pagination and API consumption in general",
+      "Project developed in NextJs and StyledComponents using the official pokemon API. In this project I had the opportunity to learn a little about pagination and API consumption in general.",
     image: "/images/pokedex.png",
     techs: ["NextJs"],
     deploy: "https://pokedex-enricky.netlify.app/",
@@ -36,10 +36,19 @@ export const projects = [
     repo: "https://github.com/Enrickyb/Clone-site-ViaCerta",
   },
   {
-    name: "Tic Tac Toe",
+    name: "Memory Game",
     description:
       "A small project where I put into practice my JavaScript learnings and I could learn many things.",
     image: "/images/memorygame.png",
+    techs: ["HTML", "CSS", "JavaScript"],
+    deploy: "https://memory-game-enrickyb.vercel.app/",
+    repo: "https://github.com/Enrickyb/memory-game",
+  },
+  {
+    name: "Tic Tac Toe",
+    description:
+      "one of my first projects using JavaScript. Helped me understand the logic of programming",
+    image: "/images/jdv.png",
     techs: ["HTML", "CSS", "JavaScript"],
     deploy: "https://enrickyb.github.io/projeto-jogo-da-velha/",
     repo: "https://github.com/Enrickyb/projeto-jogo-da-velha",
