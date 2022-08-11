@@ -44,13 +44,4 @@ export const projects = [
     deploy: "https://memory-game-enrickyb.vercel.app/",
     repo: "https://github.com/Enrickyb/memory-game",
   },
-  {
-    name: "Tic Tac Toe",
-    description:
-      "One of my first projects using JavaScript. Helped me understand the logic of programming",
-    image: "/images/jdv.png",
-    techs: ["HTML", "CSS", "JavaScript"],
-    deploy: "https://enrickyb.github.io/projeto-jogo-da-velha/",
-    repo: "https://github.com/Enrickyb/projeto-jogo-da-velha",
-  },
 ];
