@@ -4,7 +4,7 @@ export const projects = [
     description:
       "Project developed in NextJs and StyledComponents using the official pokemon API. In this project I had the opportunity to learn a little about pagination and API consumption in general.",
     image: "/images/pokedex.png",
-    techs: ["NextJs"],
+    techs: ["ReactJs", "StyledComponents"],
     deploy: "https://pokedex-enricky.netlify.app/",
     repo: "https://github.com/Enrickyb/Pokedex",
   },
@@ -13,7 +13,7 @@ export const projects = [
     description:
       "This is a clone of the netflix main page. This was a challenging project where I could improve and put my knowledge into practice.",
     image: "/images/NetflixClone.png",
-    techs: ["ReactJs", "CSS"],
+    techs: ["HTML", "CSS"],
     deploy: "https://netflixbyenricky.netlify.app/",
     repo: "https://github.com/Enrickyb/NetflixClone",
   },
@@ -22,7 +22,7 @@ export const projects = [
     description:
       "This project was developed to learn a little more about React mainly from React Hooks. It is possible to add monthly expenses and earnings.",
     image: "/images/sistemafinanceiro.png",
-    techs: ["ReactJs"],
+    techs: ["ReactJs", "StyledComponents"],
     deploy: "https://github.com/Enrickyb/Controle-de-Financas",
     repo: "https://github.com/Enrickyb/Controle-de-Financas",
   },
@@ -47,7 +47,7 @@ export const projects = [
   {
     name: "Tic Tac Toe",
     description:
-      "one of my first projects using JavaScript. Helped me understand the logic of programming",
+      "One of my first projects using JavaScript. Helped me understand the logic of programming",
     image: "/images/jdv.png",
     techs: ["HTML", "CSS", "JavaScript"],
     deploy: "https://enrickyb.github.io/projeto-jogo-da-velha/",
