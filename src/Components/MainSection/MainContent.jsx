@@ -1,18 +1,18 @@
 /** @jsxImportSource theme-ui */
 
-
 export default function MainContent(props) {
   return (
     <div className="mainContent" sx={{ color: "textblue" }}>
       <p id="develop">Web developer</p>
       <h1>Enricky Biazatti</h1>
       <p id="desc">
-      I'm a front end web developer, I build different types of responsive websites.
+        I'm a front end web developer, I build different types of responsive
+        websites.
       </p>
 
       <a
         sx={{ backgroundColor: "btn", color: "btntxt" }}
-        href="https://api.whatsapp.com/send?phone=s+5569984311483&text="
+        href="https://api.whatsapp.com/send?phone=69984311483"
         id="buttoncnt"
       >
         Contact-me
@@ -36,9 +36,17 @@ export default function MainContent(props) {
           rel="noreferrer"
         >
           {props.changIcon ? (
-            <img src="../images/black/facebook.png" alt="facebook" id="facebookIcon" />
+            <img
+              src="../images/black/facebook.png"
+              alt="facebook"
+              id="facebookIcon"
+            />
           ) : (
-            <img src="../images/white/facebook.png" alt="facebook" id="facebookIcon" />
+            <img
+              src="../images/white/facebook.png"
+              alt="facebook"
+              id="facebookIcon"
+            />
           )}
         </a>
         <a href="https://github.com/Enrickyb" target="_blank" rel="noreferrer">
