@@ -6,9 +6,7 @@ export default function Footer() {
     <div className="footer" id="foot" sx={{ backgroundColor: "bgblue" }}>
       <div class="texto-footer" id="cnt">
         <h2>Enricky Biazatti</h2>
-        <p>
-        Fully responsive portfolio made in ReactJs and styled with SCSS. {" "}
-        </p>
+        <p>Portfolio responsivo desenvolvido em React e SCSS.</p>
       </div>
       <div class="contacts" id="cnt">
         <h2>Contacts</h2>
@@ -16,22 +14,22 @@ export default function Footer() {
           Email: <a href="mailto:">enrickyb@hotmail.com</a>
         </p>
         <p>Discord: Enricky#1909</p>
-        <p>Phone: (69) 98431-1483</p>
+        <p>Telefone: (69) 98431-1483</p>
       </div>
       <div class="navegation">
-        <h2>Navigation</h2>
+        <h2>Navegação</h2>
         <p>
-          <a href="#sobre-m">About me</a>
+          <a href="#sobre-m">Sobre mim</a>
         </p>
         <p>
-          <a href="#projec">Projects</a>
+          <a href="#projec">Projetos</a>
         </p>
         <p>
           <a href="#head">Home</a>
         </p>
       </div>
       <div class="social-footer">
-        <h2>Social networks</h2>
+        <h2>Redes Sociais</h2>
         <div className="socialImages">
           <a
             href="https://www.instagram.com/enricky.b/"
@@ -45,9 +43,17 @@ export default function Footer() {
             target="_blank"
             rel="noreferrer"
           >
-            <img src="images/white/facebook.png" alt="facebook" id="facebookIconFt" />
+            <img
+              src="images/white/facebook.png"
+              alt="facebook"
+              id="facebookIconFt"
+            />
           </a>
-          <a href="https://github.com/Enrickyb" target="_blank" rel="noreferrer">
+          <a
+            href="https://github.com/Enrickyb"
+            target="_blank"
+            rel="noreferrer"
+          >
             <img src="images/white/github.png" alt="github" />
           </a>
           <a

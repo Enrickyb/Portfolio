@@ -1,8 +1,26 @@
 export const projects = [
   {
+    name: "Midas Studio",
+    description:
+      "Landing page desenvolvida para a Midas Studio com um design moderno e criativo combinado com tecnologia, criando uma experiência única para os usuários.",
+    image: "/images/midas.png",
+    techs: ["ReactJs", "TailwindCSS"],
+    deploy: "https://midastudio.com.br/",
+    repo: "",
+  },
+  {
+    name: "Weather App",
+    description:
+      "App desenvolvido em NextJs e TailwindCSS utilizando a API do OpenWeatherMap. Fornecendo informações precisas e atualizadas do clima, em tempo real, para ajudar na tomada de decisões e planejamento diário.",
+    image: "/images/weatherapp.png",
+    techs: ["Nextjs", "TailwindCSS"],
+    deploy: "https://github.com/Enrickyb/Weather-Information",
+    repo: "https://github.com/Enrickyb/Weather-Information",
+  },
+  {
     name: "Pokedex",
     description:
-      "Project developed in NextJs and StyledComponents using the official pokemon API. In this project I had the opportunity to learn a little about pagination and API consumption in general.",
+      "Projeto desenvolvido em NextJs e StyledComponents utilizando a API oficial do pokemon. Nesse projeto tive a oportunidade de aprender um pouco sobre paginação e consumo de API em geral",
     image: "/images/pokedex.png",
     techs: ["ReactJs", "StyledComponents"],
     deploy: "https://pokedex-enricky.netlify.app/",
@@ -11,7 +29,7 @@ export const projects = [
   {
     name: "Netflix Clone",
     description:
-      "This is a clone of the netflix main page. This was a challenging project where I could improve and put my knowledge into practice.",
+      "Este é um clone da página principal do netflix. Este foi um projeto desafiador onde pude aprimorar e colocar meus conhecimentos em prática.",
     image: "/images/NetflixClone.png",
     techs: ["HTML", "CSS"],
     deploy: "https://netflixbyenricky.netlify.app/",
@@ -20,7 +38,7 @@ export const projects = [
   {
     name: "Finance Control",
     description:
-      "This project was developed to learn a little more about React mainly from React Hooks. It is possible to add monthly expenses and earnings.",
+      "Este projeto foi desenvolvido para aprender um pouco mais sobre React principalmente a partir dos React Hooks. É possível adicionar despesas e ganhos mensais.",
     image: "/images/sistemafinanceiro.png",
     techs: ["ReactJs", "StyledComponents"],
     deploy: "https://github.com/Enrickyb/Controle-de-Financas",
@@ -29,7 +47,7 @@ export const projects = [
   {
     name: "Via Certa",
     description:
-      "This project is a clone of the website of the distributor Via Certa from Manaus-AM, in which I learned important lessons such as the image carousel and the Hamburger menu.",
+      "Este projeto é um clone do site da distribuidora Via Certa de Manaus-AM, no qual aprendi lições importantes como o carrossel de imagens e o cardápio do Hambúrguer.",
     image: "/images/viacerta.png",
     techs: ["HTML", "CSS", "JavaScript"],
     deploy: "https://enrickyb.github.io/Clone-site-ViaCerta/",
@@ -38,19 +56,10 @@ export const projects = [
   {
     name: "Memory Game",
     description:
-      "A small project where I put into practice my JavaScript learnings and I could learn many things.",
+      "Um pequeno projeto onde coloquei em prática meus aprendizados de JavaScript e pude aprender muitas coisas.",
     image: "/images/memorygame.png",
     techs: ["HTML", "CSS", "JavaScript"],
     deploy: "https://memory-game-enrickyb.vercel.app/",
     repo: "https://github.com/Enrickyb/memory-game",
-  },
-  {
-    name: "Tic Tac Toe",
-    description:
-      "One of my first projects using JavaScript. Helped me understand the logic of programming",
-    image: "/images/jdv.png",
-    techs: ["HTML", "CSS", "JavaScript"],
-    deploy: "https://enrickyb.github.io/projeto-jogo-da-velha/",
-    repo: "https://github.com/Enrickyb/projeto-jogo-da-velha",
   },
 ];

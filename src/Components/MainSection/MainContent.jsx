@@ -3,11 +3,10 @@
 export default function MainContent(props) {
   return (
     <div className="mainContent" sx={{ color: "textblue" }}>
-      <p id="develop">Web developer</p>
+      <p id="develop">Desenvolvedor Web</p>
       <h1>Enricky Biazatti</h1>
       <p id="desc">
-        I'm a front end web developer, I build different types of responsive
-        websites.
+        Experiência em criação de soluções web intuitivas e escaláveis.
       </p>
 
       <a
@@ -15,7 +14,7 @@ export default function MainContent(props) {
         href="https://api.whatsapp.com/send?phone=69984311483"
         id="buttoncnt"
       >
-        Contact-me
+        Entre em Contato
       </a>
 
       <div className="sociais">

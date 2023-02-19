@@ -21,7 +21,7 @@ export default function Card() {
           </div>
           <div className="card-footer">
             <div className="btn-view">
-              <a href={project.deploy}>View Project</a>
+              <a href={project.deploy}>Visualizar Projeto</a>
             </div>
             <div className="btn-sociais">
               <a href={project.repo}>
